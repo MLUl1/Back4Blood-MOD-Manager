@@ -1,0 +1,158 @@
+$JiggleBone "基础"
+{
+	is_flexible
+	{
+		length 30
+		tip_mass 200
+		pitch_stiffness 50
+		pitch_damping 7
+		yaw_stiffness 50
+		yaw_damping 7
+		along_stiffness 100
+		along_damping 0
+		angle_constraint 35
+	}
+}
+
+$JiggleBone "胸部.L"
+{
+	has_base_spring
+	{
+		base_mass 0
+		stiffness 100
+		damping 3
+		left_constraint 0 0
+		left_friction 0
+		up_constraint -1 1
+		up_friction 0
+		forward_constraint 0 0
+		forward_friction 0
+	}
+}
+
+$JiggleBone "胸部.R"
+{
+	has_base_spring
+	{
+		base_mass 0
+		stiffness 100
+		damping 3
+		left_constraint 0 0
+		left_friction 0
+		up_constraint -1 1
+		up_friction 0
+		forward_constraint 0 0
+		forward_friction 0
+	}
+}
+
+//用于同一簇发簇 由根部到末梢 体验丝滑 主要用于单马尾 效果最佳 多了就重复第五个参数即可
+
+$jigglebone "PD01"
+{
+	is_flexible
+	{
+		length 30
+		tip_mass 0
+		pitch_stiffness 50
+		pitch_damping 7
+		yaw_stiffness 50
+		yaw_damping 7
+		along_stiffness 100
+		along_damping 0
+		yaw_constraint 5 50
+		yaw_friction 0
+		yaw_bounce 0
+		angle_constraint 50
+	}
+}
+$jigglebone "PD02"
+{
+	is_flexible
+	{
+		length 35
+		tip_mass 0
+		pitch_stiffness 50
+		pitch_damping 7
+		yaw_stiffness 50
+		yaw_damping 7
+		along_stiffness 100
+		along_damping 0
+		yaw_constraint -15 50
+		yaw_friction 0
+		yaw_bounce 0
+		angle_constraint 50
+	}
+}
+$jigglebone "PD03"
+{
+	is_flexible
+	{
+		length 40
+		tip_mass 0
+		pitch_stiffness 50
+		pitch_damping 7
+		yaw_stiffness 50
+		yaw_damping 7
+		along_stiffness 100
+		along_damping 0
+		yaw_constraint -10 54.999999
+		yaw_friction 0
+		yaw_bounce 0
+		angle_constraint 54.999999
+	}
+}
+$jigglebone "PD04"
+{
+	is_flexible
+	{
+		length 45
+		tip_mass 0
+		pitch_stiffness 50
+		pitch_damping 7
+		yaw_stiffness 50
+		yaw_damping 7
+		along_stiffness 100
+		along_damping 0
+		yaw_constraint -15 60.000002
+		yaw_friction 0
+		yaw_bounce 0
+		angle_constraint 60.000002
+	}
+}
+$jigglebone "PD05"
+{
+	is_flexible
+	{
+		length 50
+		tip_mass 0
+		pitch_stiffness 50
+		pitch_damping 7
+		yaw_stiffness 50
+		yaw_damping 7
+		along_stiffness 100
+		along_damping 0
+		yaw_constraint -15 60.000002
+		yaw_friction 0
+		yaw_bounce 0
+		angle_constraint 60.000002
+	}
+}
+$jigglebone "PD06"
+{
+	is_flexible
+	{
+		length 50
+		tip_mass 0
+		pitch_stiffness 50
+		pitch_damping 7
+		yaw_stiffness 50
+		yaw_damping 7
+		along_stiffness 100
+		along_damping 0
+		yaw_constraint -15 60.000002
+		yaw_friction 0
+		yaw_bounce 0
+		angle_constraint 60.000002
+	}
+}
