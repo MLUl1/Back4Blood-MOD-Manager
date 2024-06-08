@@ -6,7 +6,7 @@ Supports drag and drop files
 
 ![QQ图片20240608181148](https://github.com/MLUl1/Back4Blood-MOD-Manager/assets/62233214/24080f3b-342a-4266-aa78-e7c878f445ea)
 
-Used with Back4Blood-Mod-Package
+Used with [Back4Blood-Mod-Package](https://github.com/MLUl1/Back4Blood-Mod-Package)
 
 最终MOD使用ZIP格式文件：包括一份_P.pak、参数配置和预览图
 
