@@ -5,4 +5,4 @@ The final MOD uses a ZIP format file: includes a _P.pak, parameter configuration
 
 ![QQ图片20240608181029](https://github.com/MLUl1/Back4Blood-MOD-Manager/assets/62233214/ead2bd5f-c351-45b3-a2cd-5bd4de913810)
 
-配合https://github.com/MLUl1/Back4Blood-Mod-Package 使用
+配合[Back4Blood-Mod-Package]https://github.com/MLUl1/Back4Blood-Mod-Package 使用
